@@ -1,0 +1,36 @@
+<div class="container-fluid">
+    <div class="row pt-4">
+        <div class="col-sm-12">
+            <form class="d-flex search-form position-relative align-tems-center " role="search">
+                <i class="fa-solid fa-magnifying-glass position-absolute fs-2 mt-3 ms-3 cursor-pointer" 
+                    style="cursor: pointer;"></i>
+                <input class="form-control me-2 search-input bg-card py-3 fs-5 text-white" type="search"
+                    placeholder="Movies Shows and more" aria-label="Search" style="padding-left: 80px;" />
+
+            </form>
+        </div>
+        <div class="col-sm-12 d-flex gap-4 pt-4 ">
+            <p class="p-2 px-3 bg-card rounded text-secondary"><i class="fa-solid fa-clock"></i> Pocket Mein Aasman <i class="fa-solid fa-x"></i></p>
+            <p class="p-2 px-3 bg-card rounded text-secondary"><i class="fa-solid fa-clock"></i> Dil Hi to Hai <i class="fa-solid fa-x"></i></p>
+            <p class="p-2 px-3 bg-card rounded text-secondary"><i class="fa-solid fa-clock"></i> Pehla Pyar <i class="fa-solid fa-x"></i></p>
+            
+        </div>
+    </div>
+    <div class="row pt-4">
+        <div class="col-sm-12 d-flex justify-content-between align-items-center  my-auto">
+            <h4 class="fs-4 fw-semibold ">Trending in India</h4>
+            <p class="">View All <i class="fa-solid fa-chevron-right"></i></p>
+        </div>
+    </div>
+    <div class="d-flex flex-wrap justify-content-evenly gap-4">
+
+        <div *ngFor="let card of videoCards; let i = index" class="position-relative">
+
+            <video-card
+                src="https://img.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/1334/1753724211334-v"
+                [card]="card" [index]=i />
+
+        </div>
+
+    </div>
+</div>

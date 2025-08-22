@@ -1,0 +1,29 @@
+.card-scroll-path {
+    overflow: auto;
+    scrollbar-width: none;
+}
+
+.card-section{
+    gap: 16px;
+    width: fit-content;
+}
+
+.video-card {
+    width: 200px;
+    height: 260px;
+    overflow: hidden;
+    border-radius: 8px;
+    position: relative;
+    background: red;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.video-card img {
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover; 
+  object-position: center;
+}

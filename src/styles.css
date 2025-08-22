@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+}
+.bg-black{
+    background-color: black !important; 
+    color: #FFF !important;
+}
+.bg-card{
+    background: rgba(6, 38, 55, 0.905) !important;
+    color: white !important;
+}

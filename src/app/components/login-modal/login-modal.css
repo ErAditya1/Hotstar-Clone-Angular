@@ -1,0 +1,22 @@
+.login-btn{
+    background: linear-gradient(to right, blue , rgb(255, 0, 47));
+    /* width: 300px; */
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+.login-card{
+    /* height: 50vh; */
+    width: 80vw;
+}
+.login-close{
+    background-color: transparent;
+    border: none;
+    right: 0;
+    margin-right: 5px;
+    font-size: 28px;
+}
+.mobile-input::placeholder{
+    color: gray;
+}

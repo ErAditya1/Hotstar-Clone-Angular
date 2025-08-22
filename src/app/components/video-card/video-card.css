@@ -1,0 +1,73 @@
+.video-card {
+  width: 200px;
+  height: 260px;
+  overflow: hidden;
+  border-radius: 8px;
+  position: relative;
+  background: red;
+  padding: 0;
+  transition: .2s ease-in-out;
+  box-sizing: border-box;
+  z-index: 11;
+  cursor: pointer;
+}
+
+
+.video-card img {
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+
+}
+
+.video-card:hover {
+  /* height: 500px; */
+  transform: scale(1.05);
+}
+
+/* Popover hidden by default */
+.popover-card {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 105%;
+  /* width: 250px; */
+  background: #fff;
+  border-radius: 20px;
+  z-index: 1000;
+}
+
+/* Show popover on hover */
+.video-card:hover .popover-card {
+  display: block;
+
+}
+
+.video-large {
+  aspect-ratio: 16/9;
+}
+
+.watch-now-btn {
+  background: linear-gradient(to right, blue, rgb(255, 0, 47));
+  /* width: 200px; */
+  color: white;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.plus-btn {
+  background: rgba(128, 128, 128, 0.455);
+  color: white;
+  border: none;
+  font-size:45px;
+  font-weight: 200;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1/1;
+  padding: 0 5px !important;
+}

@@ -1,0 +1,114 @@
+<hero-component></hero-component>
+
+<div class="container-fluid">
+    <div class="row p-0">
+        <div class="col-sm-12 d-flex justify-content-between align-items-center  my-auto">
+            <h4 class="fs-5 ">Latest Release</h4>
+            <p class="">View All <i class="fa-solid fa-chevron-right"></i></p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 card-scroll-path pb-4 pt-2">
+            <div class="card-section d-flex ">
+                <div *ngFor="let card of videoCards; let i = index" class="position-relative">
+                    
+                    <video-card
+                        src="https://img.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/1334/1753724211334-v"
+                        [card]="card" 
+                        [index]= i
+                        />
+                        
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row p-0">
+        <div class="col-sm-12 d-flex justify-content-between align-items-center  my-auto">
+            <h4 class="fs-5 ">Latest Episode</h4>
+            <p class="">View All <i class="fa-solid fa-chevron-right"></i></p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 card-scroll-path pb-4 pt-2">
+            <div class="card-section d-flex ">
+                <div *ngFor="let card of  latestEpisode; let i = index">
+                    
+                    <video-card
+                        src="https://img.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/1334/1753724211334-v"
+                        [card]="card" />
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row p-0">
+        <div class="col-sm-12 d-flex justify-content-between align-items-center  my-auto">
+            <h4 class="fs-5 ">Sparks: Your Digital Superstars</h4>
+            <p class="">View All <i class="fa-solid fa-chevron-right"></i></p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 card-scroll-path pb-4 pt-2">
+            <div class="card-section d-flex ">
+                <div *ngFor="let spark of  sparksCard; let i = index">
+                    
+                    <video-card
+                        src="https://img.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/1334/1753724211334-v"
+                        [card]="spark" />
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row p-0">
+        <div class="col-sm-12 d-flex justify-content-between align-items-center  my-auto">
+            <h4 class="fs-5 ">Top 10 in India - Today Hindi</h4>
+            <p class="">View All <i class="fa-solid fa-chevron-right"></i></p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 card-scroll-path pb-4 pt-2">
+            <div class="card-section d-flex ">
+                <div *ngFor="let spark of  top10Card; let i = index">
+                    
+                    <video-card
+                        src="https://img.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/1334/1753724211334-v"
+                        [card]="spark" />
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row p-0">
+        <div class="col-sm-12 d-flex justify-content-between align-items-center  my-auto">
+            <h4 class="fs-5 ">Latest Release</h4>
+            <p class="">View All <i class="fa-solid fa-chevron-right"></i></p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 card-scroll-path pb-4 pt-2">
+            <div class="card-section d-flex ">
+                <div *ngFor="let card of videoCards; let i = index" class="position-relative">
+                    
+                    <video-card
+                        src="https://img.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/1334/1753724211334-v"
+                        [card]="card" 
+                        [index]= i
+                        />
+                        
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,62 @@
+  
+.video-top{
+    width: 100%;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+} 
+.video-top video{
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+}
+.overlay-video{
+    height: 100vh ;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.695);
+    display: flex;
+    align-items: center;
+}
+.watch-now-btn{
+    background: linear-gradient(to right, blue , rgb(255, 0, 47));
+    width: 300px;
+    color: white;
+    border: none;
+    font-size: 24px;
+    font-weight: 600;
+}
+.plus-btn{
+    background: rgba(128, 128, 128, 0.455);
+    color: white;
+    border: none;
+    font-size: 50px;
+    font-weight: 200;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1/1;
+    padding: 0  5px !important;
+}
+.subvideo-section{
+    width: fit-content;
+    display: flex;
+    gap: 16px;
+    scrollbar-width: none;
+}
+.subvideo{
+    aspect-ratio: 16/9;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 6px;
+    transition: .2s;
+}
+.subvideo img{
+    object-fit: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
