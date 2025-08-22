@@ -1,6 +1,6 @@
-<aside class="position-fixed">
+<aside class="position-fixed d-flex justify-content-center flex-column align-items-center p-2">
 
-    <div class="side-logo">
+    <div class="side-logo mx-auto">
         <img src="/image/transparent_logo.png" class="" style="height: 70px ;width: 70px;" alt="kio hotstar" />
         <div class="btn-subscribe ">
             Subscribe <i class="fa-solid fa-chevron-right"></i>
@@ -57,7 +57,7 @@
                     <i class="fa-solid fa-table-list"></i>
                 </a>
             </button>
-            <button type="button" class="button-menu ">
+            <button type="button" class="button-menu " data-bs-toggle="modal" data-bs-target="#loginModal">
                 <a routerLink="/user" routerLinkActive="text-white " class="text-secondary">
                     <i class="fa-regular fa-circle-user"></i>
                 </a>
@@ -121,7 +121,7 @@
             </button>
 
 
-            <button type="button" class="button-menu">
+            <button type="button" class="button-menu" data-bs-toggle="modal" data-bs-target="#loginModal">
                 <a routerLinkActive="text-white " [routerLinkActiveOptions]="{exact:true}" class="text-secondary"
                     routerLink="/user">
                     <span>My Space</span>

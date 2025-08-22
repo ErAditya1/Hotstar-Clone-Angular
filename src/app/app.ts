@@ -9,5 +9,5 @@ import { LoginModal } from './components/login-modal/login-modal';
   styleUrl: './app.css'
 })
 export class App {
-  protected readonly title = signal('Hotstar-Angular');
+  protected readonly title = signal('Hotstar-developed By Aditya Kumar');
 }
